@@ -1,0 +1,485 @@
+{
+  "entity":"Surahs",
+  "version": "0.1.0",
+  "author": "Ahmed Awadallah",
+  "system": "Madinah",
+  "status": "incomplete",
+  "surahs":[
+    {
+      "id": 1,
+      "name": "Al Fatihah",
+      "page": 1,
+      "juzu": 1,
+      "ayahs": 7
+    },
+    {
+      "id": 2,
+      "name": "Al Baqarah",
+      "page": 2,
+      "juzu": 1,
+      "ayahs": 286
+    },
+    {
+      "id": 3,
+      "name": "Aal Imran",
+      "page": 50,
+      "juzu": 3,
+      "ayahs": 200
+    },
+    {
+      "id": 4,
+      "name": "Al Nisaa",
+      "page": 76,
+      "juzu": 4,
+      "ayahs": 176
+    },
+    {
+      "id": 5,
+      "name": "Al Maida",
+      "page": 106,
+      "juzu": 6,
+      "ayahs": 120
+    },
+    {
+      "id": 6,
+      "name": "Al Anaam",
+      "page": 128,
+      "juzu": 7,
+      "ayahs": 165
+    },
+    {
+      "id": 7,
+      "name": "Al Aaraf",
+      "page": 151,
+      "juzu": 8,
+      "ayahs": 206
+    },
+    {
+      "id": 8,
+      "name": "Al Anfal",
+      "page": 177,
+      "juzu": 9,
+      "ayahs": 75
+    },
+    {
+      "id": 9,
+      "name": "Al Tawbah",
+      "page": 187,
+      "juzu": 10,
+      "ayahs": 129
+    },
+    {
+      "id": 10,
+      "name": "Yonus",
+      "page": 207,
+      "juzu": 11,
+      "ayahs": 109
+    },
+    {
+      "id": 11,
+      "name": "Hud",
+      "page": 221,
+      "juzu": 11,
+      "ayahs": 123
+    },
+    {
+      "id": 12,
+      "name": "Yusuf",
+      "page": 235,
+      "juzu": 12,
+      "ayahs": 111
+    },
+    {
+      "id": 13,
+      "name": "Al Raad",
+      "page": 249,
+      "juzu": 13,
+      "ayahs": 43
+    },
+    {
+      "id": 14,
+      "name": "Ibraheem",
+      "page": 255,
+      "juzu": 13,
+      "ayahs": 52
+    },
+    {
+      "id": 15,
+      "name": "Al Hijr",
+      "page": 262,
+      "juzu": 14,
+      "ayahs": 99
+    },
+    {
+      "id": 16,
+      "name": "Al Nahl",
+      "page": 267,
+      "juzu": 14,
+      "ayahs": 128
+    },
+    {
+      "id": 17,
+      "name": "Al Israa",
+      "page": 282,
+      "juzu": 15,
+      "ayahs": 111
+    },
+    {
+      "id": 18,
+      "name": "Al Kahf",
+      "page": 293,
+      "juzu": 15,
+      "ayahs": 110
+    },
+    {
+      "id": 19,
+      "name": "Maryam",
+      "page": 305,
+      "juzu": 16,
+      "ayahs": 98
+    },
+    {
+      "id": 20,
+      "name": "Taha",
+      "page": 312,
+      "juzu": 16,
+      "ayahs": 135
+    },
+    {
+      "id": 21,
+      "name": "Al Anbiyaa",
+      "page": 322,
+      "juzu": 17,
+      "ayahs": 112
+    },
+    {
+      "id": 22,
+      "name": "Al Hajj",
+      "page": 332,
+      "juzu": 17,
+      "ayahs": 78
+    },
+    {
+      "id": 23,
+      "name": "Al Momenoon",
+      "page": 342,
+      "juzu": 18,
+      "ayahs": 118
+    },
+    {
+      "id": 24,
+      "name": "Al Noor",
+      "page": 350,
+      "juzu": 18,
+      "ayahs": 64
+    },
+    {
+      "id": 25,
+      "name": "Al Furqan",
+      "page": 359,
+      "juzu": 18,
+      "ayahs": 77
+    },
+    {
+      "id": 26,
+      "name": "Al Sho'ara'a",
+      "page": 367,
+      "juzu": 19,
+      "ayahs": 227
+    },
+    {
+      "id": 27,
+      "name": "Al Naml",
+      "page": 377,
+      "juzu": 19,
+      "ayahs": 93
+    },
+    {
+      "id": 28,
+      "name": "Al Qasas",
+      "page": 385,
+      "juzu": 20,
+      "ayahs": 88
+    },
+    {
+      "id": 29,
+      "name": "Al Ankaboot",
+      "page": 396,
+      "juzu": 20,
+      "ayahs": 69
+    },
+    {
+      "id": 30,
+      "name": "Al Room",
+      "page": 404,
+      "juzu": 21,
+      "ayahs": 60
+    },
+    {
+      "id": 31,
+      "name": "Luqman",
+      "page": 411,
+      "juzu": 21,
+      "ayahs": 34
+    },
+    {
+      "id": 32,
+      "name": "Al Sajdah",
+      "page": 415,
+      "juzu": 21,
+      "ayahs": 30
+    },
+    {
+      "id": 33,
+      "name": "Al Ahzab",
+      "page": 418,
+      "juzu": 21,
+      "ayahs": 73
+    },
+    {
+      "id": 34,
+      "name": "Saba",
+      "page": 428,
+      "juzu": 22,
+      "ayahs": 54
+    },
+    {
+      "id": 35,
+      "name": "Fatir",
+      "page": 434,
+      "juzu": 22,
+      "ayahs": 45
+    },
+    {
+      "id": 36,
+      "name": "Yasin",
+      "page": 440,
+      "juzu": 22,
+      "ayahs": 83
+    },
+    {
+      "id": 37,
+      "name": "Al Safat",
+      "page": 446,
+      "juzu": 23,
+      "ayahs": 182
+    },
+    {
+      "id": 38,
+      "name": "Saad",
+      "page": 453,
+      "juzu": 23,
+      "ayahs": 88
+    },
+    {
+      "id": 39,
+      "name": "Al Zumar",
+      "page": 458,
+      "juzu": 23,
+      "ayahs": 75
+    },
+    {
+      "id": 40,
+      "name": "Ghafir",
+      "page": 467,
+      "juzu": 24,
+      "ayahs": 85
+    },
+    {
+      "id": 41,
+      "name": "Fussilat",
+      "page": 477,
+      "juzu": 24,
+      "ayahs": 54
+    },
+    {
+      "id": 42,
+      "name": "Al Shoora",
+      "page": 483,
+      "juzu": 25,
+      "ayahs": 53
+    },
+    {
+      "id": 43,
+      "name": "Al Zokhrof",
+      "page": 489,
+      "juzu": 25,
+      "ayahs": 89
+    },
+    {
+      "id": 44,
+      "name": "Al Dokhan",
+      "page": 496,
+      "juzu": 25,
+      "ayahs": 59
+    },
+    {
+      "id": 45,
+      "name": "Al Jathiya",
+      "page": 499,
+      "juzu": 25,
+      "ayahs": 37
+    },
+    {
+      "id": 46,
+      "name": "Al Ahqaf",
+      "page": 502,
+      "juzu": 26,
+      "ayahs": 35
+    },
+    {
+      "id": 47,
+      "name": "Mohammad",
+      "page": 506,
+      "juzu": 26,
+      "ayahs": 38
+    },
+    {
+      "id": 48,
+      "name": "Al Fatah",
+      "page": 511,
+      "juzu": 26,
+      "ayahs": 29
+    },
+    {
+      "id": 49,
+      "name": "Al Hujurat",
+      "page": 515,
+      "juzu": 26,
+      "ayahs": 18
+    },
+    {
+      "id": 50,
+      "name": "Qaf",
+      "page": 518,
+      "juzu": 26,
+      "ayahs": 45
+    },
+    {
+      "id": 51,
+      "name": "Al Thariyat",
+      "page": 520,
+      "juzu": 26,
+      "ayahs": 60
+    },
+    {
+      "id": 52,
+      "name": "Al Toor",
+      "page": 523,
+      "juzu": 27,
+      "ayahs": 49
+    },
+    {
+      "id": 53,
+      "name": "Al Najm",
+      "page": 525,
+      "juzu": 27,
+      "ayahs": 62
+    },
+    {
+      "id": 54,
+      "name": "Al Qamar",
+      "page": 528,
+      "juzu": 27,
+      "ayahs": 55
+    },
+    {
+      "id": 55,
+      "name": "Al Rahman",
+      "page": 531,
+      "juzu": 27,
+      "ayahs": 78
+    },
+    {
+      "id": 56,
+      "name": "Al Waqia",
+      "page": 534,
+      "juzu": 27,
+      "ayahs": 96
+    },
+    {
+      "id": 57,
+      "name": "Al Hadeed",
+      "page": 537,
+      "juzu": 27,
+      "ayahs": 29
+    },
+    {
+      "id": 58,
+      "name": "Al Mujadalah",
+      "page": 542,
+      "juzu": 28,
+      "ayahs": 22
+    },
+    {
+      "id": 59,
+      "name": "Al Hashr",
+      "page": 545,
+      "juzu": 28,
+      "ayahs": 24
+    },
+    {
+      "id": 60,
+      "name": "Al Mumtahinah",
+      "page": 548,
+      "juzu": 28,
+      "ayahs": 13
+    },
+    {
+      "id": 61,
+      "name": "Al Saff",
+      "page": 551,
+      "juzu": 28,
+      "ayahs": 14
+    },
+    {
+      "id": 62,
+      "name": "Al Jumuah",
+      "page": 553,
+      "juzu": 28,
+      "ayahs": 11
+    },
+    {
+      "id": 63,
+      "name": "Al Monafiqoon",
+      "page": 554,
+      "juzu": 28,
+      "ayahs": 11
+    },
+    {
+      "id": 64,
+      "name": "Al Taghabon",
+      "page": 555,
+      "juzu": 28,
+      "ayahs": 18
+    },
+    {
+      "id": 64,
+      "name": "Al Talaq",
+      "page": 558,
+      "juzu": 28,
+      "ayahs": 12
+    },
+    {
+      "id": 65,
+      "name": "Al Tahreem",
+      "page": 560,
+      "juzu": 28,
+      "ayahs": 12
+    },
+    {
+      "id": 66,
+      "name": "Al Molk",
+      "page": 562,
+      "juzu": 29,
+      "ayahs": 30
+    },
+    {
+      "id": 67,
+      "name": "Al Qalam",
+      "page": 564,
+      "juzu": 29,
+      "ayahs": 52
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "quran",
+  "version": "0.1.1",
+  "description": "A Quran teacher analytics tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quran"
+  ],
+  "author": "Ahmed R. Awadallah",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "underscore": "^1.9.0"
+  }
+}
