@@ -1,12 +1,12 @@
-const surahs = require('../data/surahs');
+//const surahs = require('./data/surahs.json');
 const chalk = require('chalk');
-//const QuranData = require('../data/quran-data');
-const quranMetaData = require('../data/quran-data');
-//const quranText = require('../data/quran-simple.txt');
-//sandbox();
+
+//const quranMetaData = require('./data/quran-data');
+
 
 const fs = require('fs');
 const inputFile = './data/quran-simple-clean.txt';
+const dataFile = './data/ayahs.data.json';
 
 function fillData(inputFile, callback){
 
@@ -40,6 +40,17 @@ module.exports = () => {
                 ayahs.push(ayah);
             }
 
+        });
+
+        console.log(chalk.bold.blue(
+            "**************************************************************\n" +
+            "**************************************************************\n" +
+            "About to write data file"));
+        fs.writeFile(dataFile, JSON.stringify(ayahs),'utf8',(err) => {
+            if(err){
+                console.log(chalk.red(err));
+            }
+            console.log(chalk.green('success'));
         });
         console.log(ayahs[6236]);
     });
