@@ -1,5 +1,5 @@
 {
-  "name": "quran",
+  "name": "quran-mem-assist",
   "version": "0.1.1",
   "description": "A Quran teacher analytics tool",
   "main": "index.js",
@@ -15,5 +15,14 @@
   "dependencies": {
     "chalk": "^2.4.0",
     "underscore": "^1.9.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aawadall/quran-mem-assist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aawadall/quran-mem-assist/issues"
+  },
+  "homepage": "https://github.com/aawadall/quran-mem-assist#readme"
 }

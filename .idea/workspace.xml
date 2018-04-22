@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3777af0-fab2-44a7-a89b-de48b611154f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ayahs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/sandbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/sandbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,9 +77,16 @@
       <file leaf-file-name="sandbox.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sandbox/sandbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="216">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ayahs.data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/ayahs.data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3600" />
           </provider>
         </entry>
       </file>
@@ -101,6 +107,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -134,6 +141,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
@@ -207,27 +217,36 @@
       <option name="presentableId" value="Default" />
       <updated>1524406383411</updated>
       <workItem from="1524406384826" duration="9461000" />
-      <workItem from="1524435749054" duration="3547000" />
+      <workItem from="1524435749054" duration="4305000" />
     </task>
+    <task id="LOCAL-00001" summary="extracted difficulty from raw text">
+      <created>1524440002510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524440002510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13008000" />
+    <option name="totallyTimeSpent" value="13766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="20" width="1366" height="748" extended-state="6" />
+    <frame x="0" y="20" width="1366" height="748" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32913387" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49925816" weight="0.32913387" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50074184" side_tool="true" visible="true" weight="0.32913387" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" sideWeight="0.49925816" visible="true" weight="0.32913387" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32913387" />
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32913387" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32913387" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,6 +262,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="extracted difficulty from raw text" />
+    <option name="LAST_COMMIT_MESSAGE" value="extracted difficulty from raw text" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -361,10 +384,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/ayahs.data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3600" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
