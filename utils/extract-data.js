@@ -1,25 +1,15 @@
-//const surahs = require('./data/surahs.json');
 const chalk = require('chalk');
-
-//const quranMetaData = require('./data/quran-data');
-
-
 const fs = require('fs');
-const inputFile = './data/quran-simple-clean.txt';
-const dataFile = './data/ayahs.data.json';
 
 function fillData(inputFile, callback){
-
     fs.readFile(inputFile, (err, data) => {
-
         if(err) {
             console.log(err);
         }
         callback(err, data);
     });
-
 }
-module.exports = () => {
+const buildData = (inputFile, dataFile) => {
 
     let ayahs = [];
 
@@ -27,7 +17,6 @@ module.exports = () => {
         if (err) throw err;
         const sliced = data.toString().split("\n");
         sliced.forEach((slice, index) => {
-            //console.log(`${index} : ${slice},`);
             if (index < 6236) {
                 let words = slice.replace("\r","").split(" ");
                 const ayah = {
@@ -36,12 +25,9 @@ module.exports = () => {
                     words: words,
                     difficulty: words.length
                 };
-
                 ayahs.push(ayah);
             }
-
         });
-
         console.log(chalk.bold.blue(
             "**************************************************************\n" +
             "**************************************************************\n" +
@@ -54,8 +40,9 @@ module.exports = () => {
         });
         console.log(ayahs[6236]);
     });
-
-
-
-
 };
+
+const inputFile = process.argv[2];
+const dataFile = process.argv[3];
+
+buildData(inputFile, dataFile);
