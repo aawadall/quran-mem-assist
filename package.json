@@ -1,6 +1,6 @@
 {
   "name": "quran-mem-assist",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Quran teacher analytics tool",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
   "author": "Ahmed R. Awadallah",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.0"
+    "chalk": "^2.4.0",
+    "express": "^4.16.3"
   },
   "devDependencies": {},
   "repository": {
