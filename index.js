@@ -10,8 +10,15 @@ const port = 3001;
     const app = express();
     
     // Router 
+    const defaultRouter = express.Router();
     const router = express.Router();
     
+    // Default Router 
+    defaultRouter.get('/:id', (req, res, next) => {
+        res.json({message: {query: req.query}});
+        console.log(req.query);
+        res.end();
+    })
     // Link Router to methods 
     router.get('/', (req, res) => {
         res.json({ message: 'Placeholder'});
@@ -26,6 +33,7 @@ const port = 3001;
     });
     // Start Server
     console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
+    app.use('/', defaultRouter);
     app.use('/api', router);
     
     app.listen(port);

@@ -1,6 +1,6 @@
 {
   "name": "quran-mem-assist",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A Quran teacher analytics tool",
   "main": "index.js",
   "scripts": {
