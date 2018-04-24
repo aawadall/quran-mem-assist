@@ -16,10 +16,14 @@ const port = 3001;
     router.get('/', (req, res) => {
         res.json({ message: 'Placeholder'});
         console.log(chalk.yellow(`Incoming request: ${req.toString()}`));
-        
+        res.end();
     });
     
-    
+    router.get('/:ayah', (req,res) => {
+       res.json({ message: `req`});
+       console.log(chalk.yellow(`Incoming request: ${req}`));
+       res.end();
+    });
     // Start Server
     console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
     app.use('/api', router);
@@ -28,3 +32,4 @@ const port = 3001;
     console.log(chalk.blue(`Listining @ port ${chalk.bold(port)}`));
 
 
+    module.exports = app;
