@@ -1,3 +1,12 @@
+/* TODO:
+*   1. Define each ayah belonging to what Surah
+*   2. Define reverse references, from surahs to ayahs
+*   3. correct off by 1 for ayah index
+*   4. Add references to http://everyayah.com/data/Husary_128kbps_Mujawwad/ for each ayah
+*   5. Add references to http://www.everyayah.com/data/QuranText_jpg/ for each ayah
+*   6. Define universal attribute collection method
+*   7. define calculate plan method
+* */
 const chalk = require('chalk');
 const fs = require('fs');
 
