@@ -4,7 +4,7 @@ const api = require("./api/get-data");
 
 const thisPackage = require('./package.json');
 
-const port = 3001;
+const port = 80;
 
     // Server 
     const app = express();
