@@ -1,7 +1,7 @@
 const ayahs = require('../data/ayahs.data');
 /**
  * TODO: build methods to:
- *  1. return difficutlty of an ayah
+ *  1. return difficutlty of an ayah [done]
  *  2. given capacity, and a starting ayah, build plan
  *  3. link ayahs to surahs
  */
@@ -14,6 +14,14 @@ module.exports = {
 
     getAyah : (aIndex) => {
         return ayahs[aIndex];
+    },
+
+    lookupSurah: (aIndex) => {
+        // TODO: return surah ID
+    },
+
+    getAttribute: (aIndex, attribute) => {
+        // TODO: return attribute specified
     }
 
 };

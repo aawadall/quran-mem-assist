@@ -1,0 +1,22 @@
+{
+  "name": "quran-mem-assist",
+  "description": "Quran memorization assistant",
+  "scripts": {
+    "postdeploy": "npm start"
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
