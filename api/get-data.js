@@ -6,8 +6,14 @@ const ayahs = require('../data/ayahs.data');
  *  3. link ayahs to surahs
  */
 
-const getDifficulty = (aIndex) => {
-  // given an ayah index, get difficulty
-  return  ayahs[aIndex].difficulty;
-};
+module.exports = {
+    getDifficulty: (aIndex) => {
+        // given an ayah index, get difficulty
+        return ayahs[aIndex].difficulty;
+    },
 
+    getAyah : (aIndex) => {
+        return ayahs[aIndex];
+    }
+
+};

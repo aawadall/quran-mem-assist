@@ -11,31 +11,43 @@ const port = 3001;
     
     // Router 
     const defaultRouter = express.Router();
-    const router = express.Router();
+    const ayahRouter = express.Router();
     
     // Default Router 
     defaultRouter.get('/:id', (req, res, next) => {
         res.json({message: {query: req.query}});
         console.log(req.query);
         res.end();
-    })
-    // Link Router to methods 
-    router.get('/', (req, res) => {
-        res.json({ message: 'Placeholder'});
-        console.log(chalk.yellow(`Incoming request: ${req.toString()}`));
+    });
+
+    // Link Router to methods
+    // General Ayah Difficulty
+    ayahRouter.get('/difficulty', (req,res) => {
+        if (req.query.ayah) {
+            res.json (api.getDifficulty(req.query.ayah));
+            res.end();
+        }
+        res.json({ message: 'missing Ayah number'});
         res.end();
     });
-    
-    router.get('/:ayah', (req,res) => {
-       res.json({ message: `req`});
-       console.log(chalk.yellow(`Incoming request: ${req}`));
+
+    // General Ayah Details
+    ayahRouter.get('/', (req,res) => {
+        if (req.query.ayah) {
+            res.json (api.getAyah(req.query.ayah));
+            res.end();
+        }
+       res.json({ message: 'missing Ayah number'});
        res.end();
     });
+
     // Start Server
     console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
+
+
+    app.use('/ayah', ayahRouter);
     app.use('/', defaultRouter);
-    app.use('/api', router);
-    
+
     app.listen(port);
     console.log(chalk.blue(`Listining @ port ${chalk.bold(port)}`));
 
