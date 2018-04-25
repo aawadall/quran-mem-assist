@@ -1,6 +1,6 @@
 {
   "name": "quran-mem-assist",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "A Quran teacher analytics tool",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "npm": "^6.0.0"
   },
   "devDependencies": {},
   "repository": {
