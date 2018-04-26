@@ -36,27 +36,24 @@ ayahRouter.get('/surah/:sid', (req, res) => {
         dataLogger(JSON.stringify(result));
         res.json(result);
         res.end();
-    })
-
     });
+});
+
+ayahRouter.get('/', (req, res) => {
+   res.status(400).send('Bad Request');
+   res.end();
+});
 
 
-// General Ayah Details
-    ayahRouter.get('/', (req,res) => {
-        if (req.query.ayah) {
-            res.json (api.getAyah(req.query.ayah));
-            res.end();
-        }
-       res.json({ message: 'missing Ayah number'});
-       res.end();
-    });
-
-    // Start Server
-    console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
+// Start Server
+console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
 
 
 app.use('/api', ayahRouter);
-
+app.get('/', (req, res) => {
+   res.status(400).send('Bad Request');
+   res.end();
+});
 
 app.listen(port);
     console.log(chalk.blue(`Listining @ port ${chalk.bold(port)}`));
