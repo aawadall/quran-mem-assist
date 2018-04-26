@@ -16,6 +16,10 @@ module.exports = {
         return ayahs[aIndex];
     },
 
+    lookupAyah: (sIdx, aIdx) => {
+        //TODO: return Ayah ID given Surah/Ayah pair
+    },
+
     lookupSurah: (aIndex) => {
         // TODO: return surah ID
     },

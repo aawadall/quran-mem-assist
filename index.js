@@ -4,7 +4,7 @@ const api = require("./api/get-data");
 
 const thisPackage = require('./package.json');
 
-const port = 80;
+const port = 3000;
 
     // Server 
     const app = express();
@@ -14,13 +14,21 @@ const port = 80;
     const ayahRouter = express.Router();
     
     // Default Router 
-    defaultRouter.get('/:id', (req, res, next) => {
+defaultRouter.get('/:id', (req, res) => {
         res.json({message: {query: req.query}});
         console.log(req.query);
         res.end();
+
     });
 
     // Link Router to methods
+
+ayahRouter.get('/surah/:sid/ayah/:aid', (req, res) => {
+    res.json({message: {query: req.query}});
+    console.log(req.query);
+    res.end();
+});
+
     // General Ayah Difficulty
     ayahRouter.get('/difficulty', (req,res) => {
         if (req.query.ayah) {
@@ -45,7 +53,7 @@ const port = 80;
     console.log(chalk.blue(`Starting ${chalk.bold('QURAN MEMORY ASSISTANT')} version ${thisPackage.version}`));
 
 
-    app.use('/ayah', ayahRouter);
+app.use('/api', ayahRouter);
     app.use('/', defaultRouter);
 
     app.listen(port);
