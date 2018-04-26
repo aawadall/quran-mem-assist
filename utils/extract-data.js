@@ -71,11 +71,11 @@ const buildData = (inputFile, dataFile) => {
 
 
                     // amend record
-                    t_ayah.id -= surah[0];
+                    t_ayah.id -= surah[0] - 1;
                     const formatted_surah = (zeros + t_surah.id).substr((zeros + t_surah.id).length - zeros.length);
                     const formatted_ayah = (zeros + t_ayah.id).substr((zeros + t_ayah.id).length - zeros.length);
                     t_ayah.audio = `http://everyayah.com/data/Husary_128kbps_Mujawwad/${formatted_surah}${formatted_ayah}.mp3`;
-                    t_ayah.text_png = `http://www.everyayah.com/data/quranpngs/${t_surah.id}${t_ayah.id}.png`;
+                    t_ayah.text_png = `http://www.everyayah.com/data/quranpngs/${t_surah.id}_${t_ayah.id}.png`;
                     t_surah.ayahs.push(t_ayah);
                 }
                 surahs.push(t_surah);
